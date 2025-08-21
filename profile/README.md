@@ -9,8 +9,10 @@ GitHub is a platform for hosting code, collaborating on projects, and tracking i
 ## Getting Started
 
 1. **Set Up Your Account**
-   - Make sure you have a GitHub account.
-   - Join the Fortnox GitHub organization using the invitation email.
+   - You will receive an invitation email from our organization. Simply click the green **Join** button in the email.
+   - If you're new to GitHub, you will be prompted to create a new account directly through the invitation.
+   - If you already have an account, you will be asked to sign in to your existing account to accept the invitation.
+   - Enable Two-Factor Authentication (2FA): To protect your account from unauthorized access, it's crucial to enable 2FA. Follow [GitHub's official guide](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) to set this up.
 
 2. **Configure Your Profile**
    - Add a profile picture and bio.
