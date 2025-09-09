@@ -1,0 +1,9 @@
+version: 2
+mergeable:
+  - when: pull_request.*
+    validate:
+      - do: title
+        must_exclude:
+          regex: '^.*\b(wip|work in progress)\b.*$'
+          regex_flag: "i"
+        message: "Pull request title cannot contain WIP or Work in Progress. Please remove it when ready to merge."
