@@ -1,0 +1,15 @@
+# This workflow calls the reusable SonarQube workflow from fortnox-actions
+name: SonarQube Scanning
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+  pull_request:
+    branches:
+      - "**"
+
+jobs:
+  sonarqube:
+    uses: fortnox-actions/sonarqube/.github/workflows/sonarqube-scan.yml@main
